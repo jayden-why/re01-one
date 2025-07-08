@@ -1,0 +1,98 @@
+<!DOCTYPE html> 
+<html lang="zh-CN"> 
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>why test</title>
+    <style>  
+      body {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <style>   /* 定义多个独立样式类 */
+
+  .header-style {
+    background: #000000;
+    padding: 30px;
+    text-align: center;
+  }
+    
+  body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .content-style {
+    position: relative; /* 添加相对定位 */
+    overflow: hidden;   /* 防止内容溢出 */
+    flex: 1;
+    margin: 15px auto;
+    width: calc(100%);
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFF;
+  }
+  .glub-text {
+    text-align: center; /* 确保文本自身居中 */
+    width: 100%;       /* 占满父容器宽度 */
+    font-family: 'Impact', fantasy;
+    font-size: 10em;
+    color: transparent;
+    background: linear-gradient(135deg, #FFF 0%, #010 50%, #530 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-stroke: 1px #888;
+    -webkit-text-stroke: 1px #888;
+  }
+  .footer-style {
+    /*position: fixed;*/
+    margin-top:auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #000000;
+    display: flex;          
+    justify-content: right; 
+    align-items: center;    
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .footer-style img {
+    order: 2;
+    margin-left: 10px;     
+  }
+  .contact-info {
+    order: 1;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.2;
+    display: flex;
+    flex-direction: column;
+    align-items: margin-right;
+    color: white;
+  }
+  .doc-link {
+    color: #FFF;
+    text-decoration: none;
+  }
+  }
+</style>
+  <body>
+    <div class="header-style">
+      <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.IoH6Oww42jAiDUwx81kwSgHaEK?rs=1&pid=ImgDetMain" alt="地球" width="150" height="80" loading="lazy">
+    </div>
+    <div class="content-style">
+      <div class="glub-text" >GLUB</div>
+    </div>
+    <div class="footer-style">
+      <img src="https://tse4-mm.cn.bing.net/th/id/OIP-C.IoH6Oww42jAiDUwx81kwSgHaEK?rs=1&pid=ImgDetMain" alt="地球" width="180" height="90" loading="lazy" >
+      <div class="contact-info">
+        <p>联系方式 18874369852</p> 
+        <p>联系地址 广东省惠州市</p>
+      </div>
+    </div>
+  </body>
+</html>
